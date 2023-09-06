@@ -7,7 +7,7 @@ pipeline{
         stage(checkout){
             steps{
 
-               git'https://github.com/bcho77/pipepline.git'
+               git'https://github.com/bcho77/pipepline'
             }
         }
         stage('Build image') {
